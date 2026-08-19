@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-08-19T15:23:55.699045",
+    "event_type": "ai_processing_error",
+    "session_id": "session-0839ee8f46",
+    "candidate_id": "candidate-c74504ca3c",
+    "record_id": "",
+    "workflow_step": "Welcome",
+    "model_tool": "openai/gpt-oss-120b (Groq API)",
+    "prompt": "Hello, I'm here to start the interview process.",
+    "output": "\u26a0\ufe0f **Groq authentication failed.** Your API key is invalid or expired. Create a new key in the Groq Console, update `.env`, and restart the app.",
+    "reviewer_status": "N/A \u2014 system error",
+    "error_type": "AuthenticationError",
+    "model_config": "openai/gpt-oss-120b",
+    "retry_attempts": 2
+  },
+  {
+    "timestamp": "2026-08-19T15:24:42.169583",
+    "event_type": "ai_processing_error",
+    "session_id": "session-0839ee8f46",
+    "candidate_id": "candidate-c74504ca3c",
+    "record_id": "",
+    "workflow_step": "Information Gathering",
+    "model_tool": "openai/gpt-oss-120b (Groq API)",
+    "prompt": "already did bro",
+    "output": "\u26a0\ufe0f **Groq authentication failed.** Your API key is invalid or expired. Create a new key in the Groq Console, update `.env`, and restart the app.",
+    "reviewer_status": "N/A \u2014 system error",
+    "error_type": "AuthenticationError",
+    "model_config": "openai/gpt-oss-120b",
+    "retry_attempts": 2
+  },
+  {
+    "timestamp": "2026-08-19T16:43:29.986970",
+    "event_type": "ai_processing_error",
+    "session_id": "session-28caf90336",
+    "candidate_id": "candidate-01231e2971",
+    "record_id": "",
+    "workflow_step": "Welcome",
+    "model_tool": "openai/gpt-oss-120b (Groq API)",
+    "prompt": "Hello, I'm here to start the interview process.",
+    "output": "\u26a0\ufe0f **Groq authentication failed.** Your API key is invalid or expired. Create a new key in the Groq Console, update `.env`, and restart the app.",
+    "reviewer_status": "N/A \u2014 system error",
+    "error_type": "AuthenticationError",
+    "model_config": "openai/gpt-oss-120b",
+    "retry_attempts": 2
+  }
+]

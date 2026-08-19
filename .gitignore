@@ -1,0 +1,30 @@
+# Environment — never commit your real API keys
+.env
+
+# Local candidate data — contains PII, excluded for GDPR compliance
+candidates_log.json
+
+# Full audit trail (raw prompts/outputs) — reviewer-only, excluded for GDPR compliance
+audit_log.json
+
+# Generated candidate PDF report — regenerated per session, may contain PII
+candidate_report.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
